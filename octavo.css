@@ -1,0 +1,7 @@
+.oct{
+    background-color: rgb(151, 153, 29);
+    display: grid;
+    grid-template-columns: 675px 675px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

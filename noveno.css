@@ -1,0 +1,8 @@
+
+.nov{
+    background-color: rgb(123, 199, 123);
+    display: grid;
+    grid-template-columns: 675px 675px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

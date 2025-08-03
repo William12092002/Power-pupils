@@ -1,0 +1,48 @@
+.sexto{
+    border-radius: 12px;
+    background-color: rgb(193, 252, 252);
+    display: grid;
+    grid-template-columns: 675px 675px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.first{
+
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+.first:hover{
+    background-color: bisque;
+    cursor: pointer;
+    color: black;
+    
+}
+.tool-tip{
+            
+    background-color: rgb(110, 110, 110) ;
+    width: 300px;
+    border-radius: 9px;
+    text-align: center;
+    opacity:0;
+    transition: opacity 0.5s ;
+    visibility: hidden;
+    bottom: 110%;
+    right: 200px;
+    position: absolute;
+    z-index: 1;
+    color: rgb(255, 231, 231);
+    
+}
+.sexto:hover .tool-tip{
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,23 @@
+.header{
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.presentacion{
+    tab-size: 10px;
+    background-color: rgb(140, 250, 190);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.banner{
+    font-size: 30px;
+    text-align: center;
+}
+.sub,.sub2{
+    font-size: 20px;
+    text-align: center;
+}
+.botones{
+    display:grid;
+    grid-template-rows: 200px 200px 200px 200px 1frs;
+}

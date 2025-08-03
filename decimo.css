@@ -1,0 +1,7 @@
+.dec{
+    background-color: rgb(122, 152, 233);
+    display: grid;
+    grid-template-columns: 675px 675px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
